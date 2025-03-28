@@ -1,0 +1,104 @@
+1.source code
+name=input("enter your name:")
+
+age=int(input("enter your age:"))
+
+if age>=18:
+
+    print("congratulation",name+",you are eligible for vote")
+output
+enter your name:vijay
+
+enter your age:43
+
+congratulation vijay,you are eligible for vote
+
+
+2.source code
+
+num=int(input("enter a number:"))
+if num%2==0:
+    print(num,"is even")
+else:
+    print(num,"is odd")
+
+output
+
+enter a number:5
+5 is odd
+
+3.souce code
+
+num=int(input("enter a number:"))
+if num==0:
+    print("zero")
+elif num==1:
+    print("one")
+elif num==2:
+    print("two")
+elif num==3:
+    print("three")
+elif num==4:
+    print("four")
+elif num==5:
+    print("five")
+elif num==6:
+    print("six")
+elif num==7:
+    print("seven")
+elif num==8:
+    print("eight")
+elif num==9:
+    print("nine")
+else:
+    print("number out of range")
+out put
+
+enter a number:5
+five
+
+4.source code
+num=int(input("enter a number:"))
+if num>=1 and num<=100:
+    print("the number",num,"in between number")
+else:
+    print("the number",num,"is not between number")
+output
+enter a number:56
+the number 56 in between number
+6.source code
+mylist=input("enter a list of numbers seperated by space:")
+mylist=list(map(int,mylist.split()))
+sum=0
+for num in mylist:
+    sum+=num
+    print("the sum of the number is :",sum)
+output
+enter a list of numbers seperated by space:10 20 30 40 50
+the sum of the number is : 10
+the sum of the number is : 30
+the sum of the number is : 60
+the sum of the number is : 100
+the sum of the number is : 150
+7.source code
+for i in range (1,11):
+    if i == 5:
+        continue
+    if i == 8:
+        break
+    print(i)
+output
+1
+2
+3
+4
+6
+7
+7.source code
+num=0
+while num<=20:
+    if num%2==0:
+        print(num,end=",")
+        num+=1
+0utput
+0,2,4,6,8,10,12,14,16,18,20
